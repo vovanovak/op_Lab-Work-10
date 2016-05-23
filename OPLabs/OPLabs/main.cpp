@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int max_common_divider(int n, int m);
-void enter_num(int & n, char * name);
+int max_common_divider(int n, int m); // Підпрогама обчислення максимального спільного дільника для n i m
+void enter_num(int & n, char * name); // Ввід числа n, з ім'ям name
 
 
 void main() {

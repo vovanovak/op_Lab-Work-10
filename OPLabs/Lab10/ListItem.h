@@ -5,20 +5,9 @@ struct ListItem {
 	char* word;
 	ListItem* next;
 
-	ListItem(){
-		word = nullptr;
-		next = nullptr;
-	}
+	ListItem();
 
-	ListItem(char* word, ListItem* next) {
-		this->next = next;
-		this->word = new char[strlen(word) + 1];
-		strcpy_s(this->word, strlen(word) + 1, word);
-	}
+	ListItem(char* word, ListItem* next);
 
-	~ListItem(){
-		delete word;
-		if (next != nullptr)
-			delete next;
-	}
+	~ListItem(); 
 };

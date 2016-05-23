@@ -24,6 +24,12 @@ void main(){
 	}
 
 	lst->print();
+
+	cout << "--------------------" << endl;
+
+	lst->remove_common_items();
+	
+	lst->print();
 }
 
 char** split_string_into_words(char* str, int& words_count){

@@ -18,6 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Файлы исходного кода\Заголовочные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Файлы исходного кода\Заголовочные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ListItem.cpp">
+      <Filter>Файлы исходного кода\Заголовочные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListItem.h">
@@ -26,5 +32,8 @@
     <ClInclude Include="List.h">
       <Filter>Файлы исходного кода\Заголовочные файлы</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="alg.txt" />
   </ItemGroup>
 </Project>
